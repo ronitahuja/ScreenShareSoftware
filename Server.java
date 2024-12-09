@@ -23,7 +23,7 @@ public class Server {
 
         while (true) {
             Socket client = server.accept();
-            System.out.println("Client connected");
+            System.out.println("Client connected "+client.getInetAddress().getHostAddress());
 
             // Receive image data from the client
             InputStream in = client.getInputStream();

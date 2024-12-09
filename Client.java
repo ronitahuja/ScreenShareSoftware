@@ -74,5 +74,10 @@ public class Client {
         } catch (Exception e) {
             System.out.println("Error: " + e);
         }
+        finally {
+            running = false; // Stop the loop
+            frame.dispose(); // Close the UI
+            System.exit(0); // Exit the program
+        }
     }
 }
