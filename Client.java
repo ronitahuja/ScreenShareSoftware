@@ -1,3 +1,11 @@
+/*
+ * to create a jar file: jar cmf manifest.txt Client.jar Client.class
+ * to run the jar file: java -jar Client.jar
+ * c: Create a new JAR file.
+ * m: Include a manifest file in the JAR. This allows you to specify the entry point (Main-Class) and other metadata for your JAR file.
+ * f: Specify the name of the JAR file
+ */
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
